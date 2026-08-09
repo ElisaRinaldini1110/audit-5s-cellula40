@@ -1,0 +1,14 @@
+AUDIT 5S - VERSIONE FINALE DEMO
+
+Modifiche:
+- "Data stimata" rinominata "Data programmata".
+- Zona / Ospedale, Setting e ambito e Auditor sono obbligatori.
+- Il pulsante "Salva audit" resta disabilitato finché i tre campi non sono compilati.
+- Il salvataggio resta possibile solo dopo la valutazione completa dei 25 item.
+- Tutte le funzioni della v0.3.1 restano invariate.
+
+Per usare il file:
+1. Ferma Streamlit con CTRL+C.
+2. Sostituisci il vecchio app_5s.py con questo.
+3. Avvia:
+   py -m streamlit run app_5s.py
